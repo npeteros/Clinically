@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-window-height {
+    height: var(--window-height);
+}
+
+body {
+    overflow-x: hidden;
+}
